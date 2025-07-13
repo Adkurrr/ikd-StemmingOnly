@@ -9,7 +9,7 @@ from io import BytesIO
 import re
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
-# === Setup Stopwords dan Stemmer ===
+# === Setup Stopwords dan Stemmer ====
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 
